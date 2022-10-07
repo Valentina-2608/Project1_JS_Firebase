@@ -13,3 +13,44 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 margin:0 auto;
 position:relative;
 }
+
+
+/* users_img */
+
+.users_img{
+    width:20%;
+    height:200px;
+    position:absolute;
+    top:7%;
+    left:40%;
+    z-index:12;
+}
+
+
+.users_img img{
+    width:80%;
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+/* registration */
+
+.registration{
+    width:50%;
+    height:350px;
+    background-color:white;
+    border-radius:20px;
+    box-shadow: 5px 5px 10px gray;
+    position:absolute;
+    top:20%;
+    left:25%;
+    z-index:10;
+    display: flex;
+    justify-content: center;
+}
+
+.registration h1{
+    color:darkred;
+    margin-top:55px;
+}
