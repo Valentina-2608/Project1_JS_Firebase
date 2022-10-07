@@ -1,6 +1,6 @@
 /* Styles */
 
-.main{width:1000px;
+.main{width:100%;
 height:800px;
 background: rgba(255,255,255,1);
 background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(81,108,214,1) 100%);
@@ -19,9 +19,9 @@ position:relative;
 
 .users_img{
     width:20%;
-    height:200px;
+    height:20%;
     position:absolute;
-    top:7%;
+    top:5%;
     left:40%;
     z-index:12;
 }
@@ -38,7 +38,7 @@ position:relative;
 
 .registration{
     width:50%;
-    height:350px;
+    height:60%;
     background-color:white;
     border-radius:20px;
     box-shadow: 5px 5px 10px gray;
@@ -46,11 +46,68 @@ position:relative;
     top:20%;
     left:25%;
     z-index:10;
-    display: flex;
-    justify-content: center;
 }
 
 .registration h1{
     color:darkred;
-    margin-top:55px;
+    width:100%;
+    text-align:center;
+    position:absolute;
+    top:15%;
+    left:0px;
+}
+
+form{
+    margin-top:30px;
+    width:100%;
+    height:80%;
+    text-align:center;
+    position:absolute;
+    top:25%;
+    left:0px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#userFullName, #userName, #userEmail, #userPassword{
+    width:70%;
+    height:12%;
+    margin-top:2%;
+    border:none;
+    border-radius:10px;
+    background-color:#D4D8F3;
+}
+
+input::placeholder{
+    color:black;
+    padding-left: 10px;
+}
+
+.buttons{
+    width:70%;
+    height:12%;
+    margin-top:1%;
+}
+
+
+.buttons span{
+    font-size:20px;
+    margin-left:10px;
+    margin-right:10px;
+}
+
+#btn_sign{
+    width:25%;
+    height:80%;
+    border:none;
+    border-radius:10px;
+    background-color: darkblue;
+    margin-top:20px;
+    color:white;
+    font-size:15px;
+}
+
+#btn_sign:hover{
+    cursor:pointer;
 }
