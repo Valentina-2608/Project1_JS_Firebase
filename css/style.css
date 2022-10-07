@@ -111,3 +111,25 @@ input::placeholder{
 #btn_sign:hover{
     cursor:pointer;
 }
+
+
+#btn_login{
+    width:25%;
+    height:80%;
+    border:none;
+    border-radius:10px;
+    background-color: darkblue;
+    margin-top:20px;
+    font-size:15px;
+}
+
+
+#btn_login a{
+    text-decoration: none;
+    color:white;
+}
+#btn_logi:hover{
+    cursor:pointer;
+}
+
+
