@@ -120,7 +120,7 @@ input::placeholder{
     height:80%;
     border:none;
     border-radius:10px;
-    background-color: darkblue;
+    background-color: darkred;
     margin-top:20px;
     font-size:15px;
 }
@@ -135,3 +135,6 @@ input::placeholder{
 }
 
 
+.error{
+    box-shadow:3px 3px 5px darkred;
+}
